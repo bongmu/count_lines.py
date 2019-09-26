@@ -73,7 +73,6 @@ def count_code(path):
 
 if __name__ == '__main__':
     path = sys.argv[1]
-    #path = r"C:\Users\Administrator\Desktop\老男孩python文档\老男孩Python程序编写\正式班"
     count = count_code(path)
     print(count)
 
